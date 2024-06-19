@@ -1,0 +1,34 @@
+body 
+{
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(WhiteBrickWall.jpg);
+}
+
+.main_header 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray;
+    margin: 15px auto;
+    width: 40%;
+}
+button
+{
+    background-color: darkgrey;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+sec
+{
+    @media screen and (min-width: 1025px)
+    {
+        display: grid;
+        grid-template-columns: 120px;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    @media screen and (max-width: 500px)
+    {
+        
+    }
+    
+}
