@@ -9,26 +9,64 @@ body
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: gray;
-    margin: 15px auto;
-    width: 40%;
+    margin: 0px;
+    width: 100%;
+    font-size: 70px;
+    @media screen and (min-width: 800px)
+    {
+        width: 75%;
+        margin: 15px auto;
+        font-size: 50px;
+    }
 }
+
 button
 {
     background-color: darkgrey;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-sec
-{
-    @media screen and (min-width: 1025px)
+    font-size: 50px;
+    @media screen and (min-width: 800px)
     {
+        font-size: large;
+    }
+}
+
+.menu_bar
+{
+    display: grid;
+    height: 250px;
+    @media screen and (min-width: 800px)
+    {
+        position: fixed;
+        :hover
+        {
+            background-color: beige;
+        }
         display: grid;
+        height: 150px;
         grid-template-columns: 120px;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
-    @media screen and (max-width: 500px)
-    {
-        
-    }
-    
+}
+
+hr
+{
+    height: 15px;
+}
+
+.paragraph
+{
+    max-width: 50%;
+    background-color: lightgray;
+    font-size: 25px;
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+}
+
+footer
+{
+    background-color: gray;
 }

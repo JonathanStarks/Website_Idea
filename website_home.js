@@ -1,18 +1,9 @@
-menu_sections
-[
-    "Home",
-    "About Me",
-    "Projects",
-    "Contact Info"
-]
+document.getElementById("clicks").onclick = change_font;
 
-function menu_bar()
+function change_font()
 {
-    // var width = window.innerWidth-50;
-    // var height = window.innerHeight-50;    
-    foreach (String in menu_sections)
-    {
-        document.write(menu_sections[String]);
-    }
-    return;
+    // document.body.style.fontSize = "1";
+    document.body.style.color = "blue";
+    const paragraph = document.body.style.fontFamily = "cursive";
+    return false;
 }
