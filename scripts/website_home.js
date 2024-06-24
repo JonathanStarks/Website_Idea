@@ -2,7 +2,7 @@ document.getElementById("clicks").onclick = change_font;
 
 function change_font()
 {
-    document.body.style.color = "blue";
+    document.body.style.color = ;
     const paragraph = document.body.style.fontFamily = "cursive";
     return false;
 }
