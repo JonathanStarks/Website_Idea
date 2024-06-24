@@ -2,7 +2,7 @@ body
 {
     text-align: center;
     margin: 0 auto;
-    background-image: url(WhiteBrickWall.jpg);
+    background-image: url(images/WhiteBrickWall.jpg);
 }
 
 .main_header 
@@ -70,3 +70,4 @@ footer
 {
     background-color: gray;
 }
+
