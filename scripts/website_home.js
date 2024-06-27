@@ -1,32 +1,9 @@
-document.getElementById("clicks").onclick = change_font;
+document.getElementById("clicks").onclick = change_everything;
 
-function change_font()
+function change_everything()
 {
-    document.body.style.color = ;
-    const paragraph = document.body.style.fontFamily = "cursive";
+    document.body.style.fontFamily = 'Courier New';
+    document.body.style.color = '#66FF00';
+    
     return false;
 }
-
-// // Takes the user to the home page
-// function to_home_page()
-// {
-
-// }
-
-// // Takes the user to the about me page
-// function to_about_me_page()
-// {
-
-// }
-
-// // Takes the user to the projects page
-// function to_projects_page()
-// {
-
-// }
-
-// // Takes the user to the contact info page
-// function to_contact_info()
-// {
-
-// }

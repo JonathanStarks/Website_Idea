@@ -49,3 +49,22 @@ button
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 }
+.paragraph
+{
+    max-width: 90%;
+    background-color: lightgray;
+    font-size: 25px;
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+    @media screen and (min-width: 800px)
+    {
+        max-width: 75%;
+    }
+}
+.airplanes
+{
+    display: grid;
+    
+}
