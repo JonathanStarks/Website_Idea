@@ -1,14 +1,5 @@
-body 
-{
-    text-align: center;
-    margin: 0 auto;
-    background-image: url(images/WhiteBrickWall.jpg);
-}
-
 .main_header 
 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: gray;
     margin: 0px;
     width: 100%;
     font-size: 70px;
@@ -18,6 +9,15 @@ body
         margin: 15px auto;
         font-size: 50px;
     }
+}
+
+body 
+{
+    text-align: center;
+    margin: 0 auto;
+    /* background-color:lightslategray; */
+    background-image: url(images/WhiteBrickWall.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 button
@@ -48,11 +48,6 @@ button
         grid-template-columns: 120px;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
-}
-
-hr
-{
-    height: 15px;
 }
 
 .paragraph

@@ -15,6 +15,7 @@ Ihave mostly used HTML and CSS, but I plan on using JavaScript in the site. I'm 
 - [ChatGPT](http://openai.com)
 - [GitHub](https://github.com)
 
+
 ## Future Work
 - I want to add some JavaScript to make the website more appealing, for example, have a background that scrolls with the page, or a button that when clicked will do things to the page.
 - I want to finish filling out the sub-pages of the site.
@@ -27,5 +28,6 @@ Ihave mostly used HTML and CSS, but I plan on using JavaScript in the site. I'm 
 ## Useful Websites
 - [Stack Overflow](https://stackoverflow.com)
 - [My Website](https://jonathanstarks.github.io/Website_Idea/)
+- [W3Schools](https://w3schools.com)
 
 ## Future Work
