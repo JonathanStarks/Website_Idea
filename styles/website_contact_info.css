@@ -49,3 +49,12 @@ button
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
 }
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: gray;
+}

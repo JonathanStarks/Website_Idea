@@ -49,6 +49,7 @@ button
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
 }
+
 .paragraph
 {
     max-width: 100%;
@@ -64,6 +65,7 @@ button
     }
     
 }
+
 .airplanes
 {
     margin: 0 auto;
@@ -90,9 +92,13 @@ button
         max-width: 50%;
         grid-column: 2/3;
     }
-    
+}
+
 footer
 {
-    background-color: darkgray;
-}
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: gray;
 }
