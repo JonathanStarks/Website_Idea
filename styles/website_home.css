@@ -46,7 +46,7 @@ button
         display: grid;
         height: 150px;
         grid-template-columns: 120px;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
 }
 

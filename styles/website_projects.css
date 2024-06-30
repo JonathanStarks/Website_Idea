@@ -32,3 +32,21 @@ button
         font-size: large;
     }
 }
+
+.menu_bar
+{
+    display: grid;
+    height: 250px;
+    @media screen and (min-width: 800px)
+    {
+        position: fixed;
+        :hover
+        {
+            background-color: beige;
+        }
+        display: grid;
+        height: 150px;
+        grid-template-columns: 120px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
