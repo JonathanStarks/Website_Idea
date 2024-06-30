@@ -78,9 +78,12 @@ button
     @media screen and (min-width: 800px)
     {
         display: grid;
-        grid-template-columns: 40%, 40%;
+        grid-template-columns: 50%, 50%;
         grid-template-rows: auto;
-        /* align-items: center; */
+        padding: 5%;
+        margin: 0 auto;
+        /* border: 5px solid black;
+        border-spacing: 500px 500px; */
     }
     
 }
@@ -90,12 +93,13 @@ button
     max-width: 100px;
     @media screen and (min-width: 800px)
     {
-
-        margin: 0 auto;
-        max-width: 350px;
-        grid-column: 2;
-        grid-row: auto;
+        /* margin: 0 auto; */
+        max-width: 50%;
+        grid-column: 2/3;
     }
     
-
+footer
+{
+    background-color: darkgray;
+}
 }
