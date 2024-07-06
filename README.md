@@ -11,8 +11,8 @@ Ihave mostly used HTML and CSS, but I plan on using JavaScript in the site. I'm 
 
 ## Useful Websites
 
-- [Stack Overflow](http://stackoverflow.com)
-- [ChatGPT](http://openai.com)
+- [Stack Overflow](https://stackoverflow.com)
+- [ChatGPT](https://openai.com)
 - [GitHub](https://github.com)
 
 
@@ -24,10 +24,14 @@ Ihave mostly used HTML and CSS, but I plan on using JavaScript in the site. I'm 
 # 2<sup>nd</sup> Check In
 
 ## Development Environment
+Same as before, I am using github to host my website, and I am using VS Code for my editor.
+
+I've been trying to use some JavaScritp, but it has been proving to be somewhat dificult to understand. The styleing of the website has also taken more time than I would have liked, but I do like where it has gone.
 
 ## Useful Websites
 - [Stack Overflow](https://stackoverflow.com)
 - [My Website](https://jonathanstarks.github.io/Website_Idea/)
 - [W3Schools](https://w3schools.com)
+- [ChatGPT](https://openat.com)
 
 ## Future Work
