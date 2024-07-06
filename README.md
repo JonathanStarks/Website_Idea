@@ -35,3 +35,6 @@ I've been trying to use some JavaScritp, but it has been proving to be somewhat 
 - [ChatGPT](https://openat.com)
 
 ## Future Work
+- I still don't have the menu working on a couple of the sites how I want it to, I want to get the menu to work like it does on the mobile site.
+- I want to learn more JS so I can make the website better, I still want to make a background that doesn't scroll with the page.
+- I still need to work on some of the pages, I want to add more to the about me page, the contact info page, and the projects page.
