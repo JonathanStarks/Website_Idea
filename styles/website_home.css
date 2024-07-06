@@ -88,6 +88,7 @@ button
 
 footer
 {
+    
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -95,3 +96,7 @@ footer
     background-color: gray;
 }
 
+#dont_do_it
+{
+    font-size: 12px;
+}
