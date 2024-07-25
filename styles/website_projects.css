@@ -86,6 +86,11 @@ button
         max-width: 75%;
         
     }
+
+    #temp_graph
+    {
+        max-width: 50%;
+    }
 }
 
 footer
