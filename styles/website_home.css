@@ -1,3 +1,13 @@
+:root
+{
+    --cream_beige : #f4f0cb;
+    --birch_brown : #ded29e;
+    --old_wood : #b3a580;
+    --dark_birch : #685642;
+    --bg_green : #a1bc50;
+}
+
+
 .main_header 
 {
     margin: 0px;
@@ -9,13 +19,13 @@ body
 {
     text-align: center;
     margin: 0 auto;
-    background-image: url(images/WhiteBrickWall.jpg);
+    background: linear-gradient(transparent, var(--birch_brown) , var(--old_wood) , var(--dark_birch)), url("images/WhiteBrickWall.jpg");
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 button
 {
-    background-color: darkgrey;
+    background-color: var(--cream_beige);
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
@@ -36,7 +46,7 @@ button
 .paragraph
 {
     max-width: 90%;
-    background-color: lightgray;
+    background-color: var(--bg_green);
     font-size: 25px;
     text-align: center;
     margin: 50px auto;
@@ -96,7 +106,7 @@ footer
     bottom: 0;
     width: 100%;
     padding: 10px 0;
-    background-color: gray;
+    background-color: var(--bg_green);
 }
 
 #dont_do_it
