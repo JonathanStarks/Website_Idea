@@ -13,11 +13,35 @@
     --dark_birch : #685642;
     --bg_green : #a1bc50;
 }
+
 body 
 {
     text-align: center;
     margin: 0 auto;
-    background: linear-gradient(transparent, var(--birch_brown) , var(--old_wood) , var(--dark_birch)), url("images/WhiteBrickWall.jpg");
+    background: repeating-linear-gradient(
+        190deg,
+        rgb(244 240 203 / 50%) 20px,
+        rgb(104 86 66 / 50%) 40px,
+        rgb(179 165 182 / 50%) 80px,
+        rgb(244 240 203 / 50%) 160px
+    ),
+    repeating-linear-gradient(
+        -190deg,
+        rgb(244 240 203 / 50%) 40px,
+        rgb(104 86 66 / 50%) 60px,
+        rgb(179 165 182 / 50%) 100px,
+        rgb(244 240 203 / 50%) 120px
+    ),
+    repeating-linear-gradient(
+        23deg,
+        tan 100px,
+        wheat 150px,
+        linen 200px,
+        peru 250px,
+        linen 300px,
+        wheat 350px,
+        tan 400px
+    );
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -92,7 +116,7 @@ button
     .paragraph
     {
         max-width: 50%;
-        background-color: lightgray;
+        background-color: var(--bg_green);
         font-size: 25px;
         margin: 0 auto;
         padding: 15px;
@@ -122,6 +146,13 @@ button
     {
         width: 50px;
         height: 50px;  
+    }
+
+    .body_box
+    {
+        margin: 0 auto;
+        max-width: 75%;
+        background-color: #a7b380;
     }
 }
 

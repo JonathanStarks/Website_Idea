@@ -4,7 +4,9 @@
     --birch_brown : #ded29e;
     --old_wood : #b3a580;
     --dark_birch : #685642;
-    --bg_green : #a1bc50;
+    --pistachio_green : #a1bc50;
+    --wilt_green : #a7b380;
+    --core_wood_brown : #b38c80;
 }
 
 
@@ -19,7 +21,30 @@ body
 {
     text-align: center;
     margin: 0 auto;
-    background: linear-gradient(transparent, var(--birch_brown) , var(--old_wood) , var(--dark_birch)), url("images/WhiteBrickWall.jpg");
+    background: repeating-linear-gradient(
+        190deg,
+        rgb(244 240 203 / 50%) 20px,
+        rgb(104 86 66 / 50%) 40px,
+        rgb(179 165 182 / 50%) 80px,
+        rgb(244 240 203 / 50%) 160px
+    ),
+    repeating-linear-gradient(
+        -190deg,
+        rgb(244 240 203 / 50%) 40px,
+        rgb(104 86 66 / 50%) 60px,
+        rgb(179 165 182 / 50%) 100px,
+        rgb(244 240 203 / 50%) 120px
+    ),
+    repeating-linear-gradient(
+        23deg,
+        tan 100px,
+        wheat 150px,
+        linen 200px,
+        peru 250px,
+        linen 300px,
+        wheat 350px,
+        tan 400px
+    );
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -46,7 +71,7 @@ button
 .paragraph
 {
     max-width: 90%;
-    background-color: var(--bg_green);
+    background-color: var(--pistachio_green);
     font-size: 25px;
     text-align: center;
     margin: 50px auto;
@@ -72,7 +97,7 @@ button
         position: fixed;
         :hover
         {
-            background-color: beige;
+            background-color: var(--cream_beige);
         }
         display: grid;
         height: 150px;
@@ -84,7 +109,6 @@ button
     {
         width: 50px;
         height: 50px;  
-        /* line-height: 5px; */
     }
 
     button
@@ -95,7 +119,13 @@ button
     .paragraph
     {
         max-width: 75%;
-        
+    }
+
+    .body_box
+    {
+        margin: 0 auto;
+        max-width: 75%;
+        background-color: #a7b380;
     }
 }
 
@@ -106,7 +136,7 @@ footer
     bottom: 0;
     width: 100%;
     padding: 10px 0;
-    background-color: var(--bg_green);
+    background-color: var(--pistachio_green);
 }
 
 #dont_do_it
