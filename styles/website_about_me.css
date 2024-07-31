@@ -131,7 +131,7 @@ footer
     bottom: 0;
     width: 100%;
     padding: 10px 0;
-    background-color: gray;
+    background-color: var(--bg_green);
 }
 
 #dont_do_it

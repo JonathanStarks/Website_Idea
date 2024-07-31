@@ -45,5 +45,3 @@ function grow_box()
     },{once: true});
 }
 
-// This function will change the background to a different gradient whenever a
-// new page is loaded
