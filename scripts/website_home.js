@@ -1,3 +1,5 @@
+// This is a function that will connect to the button labled 'Do Not Push',
+// when it is pressed it will make the page unreadable.
 function change_everything()
 {
     document.body.style.fontFamily = "monospace";
@@ -6,13 +8,17 @@ function change_everything()
     document.body.style.backgroundColor = "#FF00FF";
     return false;
 }
-    
+
+// This function will make the menu box with three lines expand into a menu
+// when it is clicked and then go back to it's collapsed state when clicked agian.
 document.getElementById("menu_box").addEventListener("click", function()
 {
     var menuBar = document.getElementById("menu_bar");
     menuBar.classList.toggle("show");
 });
 
+// This function goes to a section of the project page that will grow a flower
+// more and more as the image is clicked on.
 click_count = 0;
 function grow_box()
 {
@@ -38,3 +44,4 @@ function grow_box()
         }
     },{once: true});
 }
+

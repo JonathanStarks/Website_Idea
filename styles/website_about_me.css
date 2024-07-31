@@ -94,6 +94,11 @@ button
 
     #menu_bar
     {
+        display: none;
+    }
+
+    #menu_bar.show
+    {
         position: fixed;
         :hover
         {
@@ -104,10 +109,11 @@ button
         grid-template-columns: 120px;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
-
+    
     #menu_box
     {
-        width: fit-content;
+        width: 50px;
+        height: 50px;  
     }
 }
 
