@@ -14,8 +14,9 @@
     --bg_green : #a1bc50;
 }
 
-body 
+html, body 
 {
+    height: 100%;
     text-align: center;
     margin: 0 auto;
     background: repeating-linear-gradient(
